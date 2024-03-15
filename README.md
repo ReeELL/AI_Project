@@ -66,6 +66,6 @@ Debug.Log(Message)
 ```
 
 <!-- ToDoList -->
--[x] #739
--[ ] https://github.com/ReeELL/AI_Project
--[ ] add
+- [x] #739
+- [ ] https://github.com/ReeELL/AI_Project
+- [ ] add
