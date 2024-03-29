@@ -52,3 +52,13 @@ masterpiece, high_quality, super_detail, CG_game_cg, a woman in a red hat and bl
 Negative prompt: (painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy, watermark, signature, text, logo
 ```
 Steps: 30, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 1960479723, Size: 344x480, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, Denoising strength: 0.45, ADetailer model: face_yolov8n.pt, ADetailer confidence: 0.3, ADetailer dilate erode: 4, ADetailer mask blur: 4, ADetailer denoising strength: 0.4, ADetailer inpaint only masked: True, ADetailer inpaint padding: 32, ADetailer version: 24.3.2, Mask blur: 4, Inpaint area: Only masked, Masked area padding: 32, Version: 1.8.0-RC
+
+# 라인아트 테스트
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/8910b8b8de866f26e1dafaffa8c4ae26cfef6aa9/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/64b17ad6ae3560d5394d44c6_lineart-anime-avatar.png)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/8910b8b8de866f26e1dafaffa8c4ae26cfef6aa9/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00002-3464506942.png)
+
+# prompt
+```
+Steps: 20, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 3464506942, Size: 512x512, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, ControlNet 0: "Module: lineart_anime, Model: control_v11p_sd15_lineart [43d4be0d], Weight: 1, Resize Mode: Resize and Fill, Low Vram: False, Processor Res: 512, Guidance Start: 0, Guidance End: 1, Pixel Perfect: False, Control Mode: Balanced, Hr Option: Both, Save Detected Map: True", Version: 1.8.0-RC
