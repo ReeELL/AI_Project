@@ -59,6 +59,48 @@ Steps: 30, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 1960479723, Size: 344x4
 
 ![image](https://raw.githubusercontent.com/ReeELL/AI_Project/8910b8b8de866f26e1dafaffa8c4ae26cfef6aa9/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00002-3464506942.png)
 
-# prompt
+
 ```
 Steps: 20, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 3464506942, Size: 512x512, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, ControlNet 0: "Module: lineart_anime, Model: control_v11p_sd15_lineart [43d4be0d], Weight: 1, Resize Mode: Resize and Fill, Low Vram: False, Processor Res: 512, Guidance Start: 0, Guidance End: 1, Pixel Perfect: False, Control Mode: Balanced, Hr Option: Both, Save Detected Map: True", Version: 1.8.0-RC
+
+```
+
+# Scribble 테스트
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/b80d18234cd5149d2ee7b92c7ff992d548a233b2/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/%EA%B7%B8%EB%A6%BC%202.png)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/b80d18234cd5149d2ee7b92c7ff992d548a233b2/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00004-191751643.png)
+
+
+```
+lineart, white background, masterpiece, extremely detailed thick line drawing, 1girl , hoodie, animal gloves, skirt, sneakers
+Steps: 20, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 191751643, Size: 512x512, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, ControlNet 0: "Module: scribble_pidinet, Model: control_v11p_sd15_scribble [d4ba51ff], Weight: 1, Resize Mode: Crop and Resize, Low Vram: False, Processor Res: 512, Guidance Start: 0, Guidance End: 1, Pixel Perfect: False, Control Mode: Balanced, Hr Option: Both, Save Detected Map: True", Version: 1.8.0-RC
+
+```
+
+# Depth Test
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/930d024636a20853bd326286ca3ed7afd3926dda/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-04-05%20103158.png)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/930d024636a20853bd326286ca3ed7afd3926dda/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00005-2474776497.png)
+
+
+```
+cyberpunk, long hair, red eyes,
+Steps: 20, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 2474776497, Size: 512x512, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, ControlNet 0: "Module: depth_midas, Model: control_v11f1p_sd15_depth [cfd03158], Weight: 1, Resize Mode: Crop and Resize, Low Vram: False, Processor Res: 512, Guidance Start: 0, Guidance End: 1, Pixel Perfect: False, Control Mode: Balanced, Hr Option: Both, Save Detected Map: True", Version: 1.8.0-RC
+
+```
+
+# OpenPose 테스트
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/af62b43aea8453bb53381fcb2a90c8a083a2a5bc/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/pose-fighting-full-009-ar2x3.png)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/af62b43aea8453bb53381fcb2a90c8a083a2a5bc/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00006-2269667599.png)
+
+
+# Pixelize 테스트
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/9affc66665c38e52a305a60e18f4335102de80db/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(1).jpg)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/9affc66665c38e52a305a60e18f4335102de80db/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00002.png)
+
