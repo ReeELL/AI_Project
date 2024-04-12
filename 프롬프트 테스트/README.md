@@ -104,3 +104,67 @@ Steps: 20, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 2474776497, Size: 512x5
 
 ![image](https://raw.githubusercontent.com/ReeELL/AI_Project/9affc66665c38e52a305a60e18f4335102de80db/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00002.png)
 
+# open pose 테스트2
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/97540957674e5ffa5cbe20f80f82177b8d89471c/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/pose-fighting-full-002-ar2x3.png)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/97540957674e5ffa5cbe20f80f82177b8d89471c/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00006-829413060.png)
+
+# 오픈포즈 사진에서 포즈 따오기
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/9cffda3b6730cd1194fa347ef15c1070c5695e11/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/a8aeaa2e9e171463b3a3b64676fcc07a.jpg)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/9cffda3b6730cd1194fa347ef15c1070c5695e11/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/tmp9m7v7bes.png)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/9cffda3b6730cd1194fa347ef15c1070c5695e11/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00020-2963302659.png)
+
+
+```
+Steps: 30, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 2963302659, Size: 512x512, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, ControlNet 0: "Module: openpose, Model: control_v11p_sd15_openpose [cab727d4], Weight: 1, Resize Mode: Crop and Resize, Low Vram: False, Processor Res: 512, Guidance Start: 0, Guidance End: 1, Pixel Perfect: False, Control Mode: Balanced, Hr Option: Both, Save Detected Map: True", Version: 1.8.0-RC
+
+```
+
+# Segmentation 테스트
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/61a350b32284c34ab782b1c7075338e5c1ef8381/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/msk_5e65a1179ab47.jpg)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/61a350b32284c34ab782b1c7075338e5c1ef8381/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00007-319703988.png)
+
+
+```
+cyberpunk, long hair, red eyes,
+Steps: 20, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 2474776497, Size: 512x512, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, ControlNet 0: "Module: depth_midas, Model: control_v11f1p_sd15_depth [cfd03158], Weight: 1, Resize Mode: Crop and Resize, Low Vram: False, Processor Res: 512, Guidance Start: 0, Guidance End: 1, Pixel Perfect: False, Control Mode: Balanced, Hr Option: Both, Save Detected Map: True", Version: 1.8.0-RC
+
+```
+
+# Segmentation 도안 사용
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/d59f36b9cc395cb6e4ed5a3d985e7a91d94a4d48/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/tmpvy_cwnrv.png)
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/d59f36b9cc395cb6e4ed5a3d985e7a91d94a4d48/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00008-3823568514.png)
+
+
+```
+cyberpunk, long hair, red eyes,
+Steps: 20, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 2474776497, Size: 512x512, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, ControlNet 0: "Module: depth_midas, Model: control_v11f1p_sd15_depth [cfd03158], Weight: 1, Resize Mode: Crop and Resize, Low Vram: False, Processor Res: 512, Guidance Start: 0, Guidance End: 1, Pixel Perfect: False, Control Mode: Balanced, Hr Option: Both, Save Detected Map: True", Version: 1.8.0-RC
+
+```
+
+# Lora 테스트
+---
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/67781e9250a57cbf35f008b20989e5600c781d01/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00029-3433407908.png)
+
+```
+(masterpiece:1.2), best quality,PIXIV, 1cat, <lora:cat_20230627113759:0.8>
+Steps: 30, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 3433407908, Size: 512x512, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, Lora hashes: "cat_20230627113759: 939a01b898c5", Version: 1.8.0-RC
+
+```
+
+![image](https://raw.githubusercontent.com/ReeELL/AI_Project/67781e9250a57cbf35f008b20989e5600c781d01/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8/00035-2287343379.png)
+
+
+```
+<lora:techpunkmask_v0.5:1>
+Steps: 30, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 2287343379, Size: 512x512, Model hash: cbfba64e66, Model: counterfeitV30_v30, VAE hash: df3c506e51, VAE: kl-f8-anime2.ckpt, ADetailer model: face_yolov8n.pt, ADetailer confidence: 0.3, ADetailer dilate erode: 4, ADetailer mask blur: 4, ADetailer denoising strength: 0.4, ADetailer inpaint only masked: True, ADetailer inpaint padding: 32, ADetailer version: 24.4.0, Lora hashes: "techpunkmask_v0.5: 5d7ac23a7437", Version: 1.8.0-RC
+
+```
